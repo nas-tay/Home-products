@@ -1,0 +1,232 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        padding: 0 100px;
+    }
+    .request-wrap {
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .container {
+        padding: 0 60px;
+    }
+    .header-bottom-right {
+        width: 40%;
+    }
+    .header-logo {
+        width: 40%;
+    }
+    .title {
+        font-size: 52px;
+    }
+    .subtitle {
+        font-size: 50px;
+    }
+    .advantage-block {
+        flex-direction: column;
+        text-align: center;
+        .text {
+            margin-top: 20px;
+        }
+        img {
+            margin-right: 0;
+        }
+    }
+    .service {
+        &-item {
+            height: 610px;
+        }
+        .item-title {
+            font-size: 16px;
+        }
+        .item-descr {
+            padding: 0 15px;
+        }
+    }
+    .black-btn {
+        height: 50px;
+        font-size: 16px;
+    }
+    .examples-title {
+        font-size: 16px;
+    }
+    .request {
+        .inputs {
+            .input {
+                width: 40%;
+                input {
+                    width: 100%;
+                }
+            }
+            .button {
+                width: 100%;
+                margin-top: 50px;
+                text-align: center;
+            }
+        }
+        .black-btn {
+            width: 50%;
+        }
+    }
+    .footer-logo {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 120px 0;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 40px;
+        height: auto;
+        img {
+            width: 100%;
+        }
+        .black-btn {
+            width: 50%;
+            margin: 30px auto 0;
+        }
+    }
+}
+@media screen and (max-width: 920px) {
+    .header-top-inner {
+        display: none;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .header-top-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner {
+        padding: 60px 0;
+        margin-top: 50px;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .subtitle {
+        font-size: 40px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .advantage-block {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .advantage-descr {
+        margin-top: 30px;
+    }
+    .advantage:before {
+        height: 120%;
+        top: -20%;
+    }
+    .block-subtitle {
+        font-size: 33px;
+    }
+    .warranty {
+        padding: 30px;
+        &-wrap {
+            font-size: 16px;
+        }
+    }
+    section:not(#block-1) {
+        margin-top: 50px;
+    }
+    .contacts-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contacts-right {
+        width: 100%;
+    }
+    .contacts .social {
+        width: 50%;
+    }
+    .footer-menu {
+        display: none;
+    }
+    .footer-logo {
+        width: 60%;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+    .examples .swiper-button-prev {
+        left: 10px;
+    }
+    .examples .swiper-button-next {
+        right: 10px;
+    }
+    .warranty {
+        .img {
+            width: 100%;
+            margin-bottom: 30px;
+            img {
+                margin-right: 0;
+            }
+        }
+        h2 {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    .slide-menu {
+        width: 80%;
+        .logo {
+            flex-wrap: wrap;
+            img {
+                margin-right: 0;
+                margin-bottom: 30px;
+                width: 100%;
+            }
+            
+        }
+    }
+    .request .inputs .input {
+        width: 100%;
+        &:first-child {
+            margin-bottom: 50px;
+        }
+    }
+    .request .black-btn {
+        width: 70%;
+    }
+    .footer-logo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 0 30px;
+    }
+    .callback-btn {
+        padding: 0 20px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 30px;
+    }
+    .examples .swiper-button-prev {
+        left: 0px;
+    }
+    .examples .swiper-button-next {
+        right: 0px;
+    }
+    .block-subtitle {
+        font-size: 30px;
+    }
+}
